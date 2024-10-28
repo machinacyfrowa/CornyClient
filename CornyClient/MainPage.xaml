@@ -13,8 +13,15 @@
                 FontSize="30"
                 HorizontalOptions="Center" />
             <Button
-                Text="Pokaż suchara"
-                Clicked="LoadJoke"
+                Text="Pokaż losowego suchara"
+                Clicked="LoadRandomJoke"
+                HorizontalOptions="CenterAndExpand"
+                BackgroundColor="LightBlue"
+                TextColor="Black"
+                FontSize="20" />
+            <Button
+                Text="Pokaż najnowszego suchara"
+                Clicked="LoadLatestJoke"
                 HorizontalOptions="CenterAndExpand"
                 BackgroundColor="LightBlue"
                 TextColor="Black"
